@@ -1,0 +1,23 @@
+ // in sass first create a variable for color
+
+$myColor:red;
+$myColor1:blue;
+$myFontSize:50px;
+$myFontSize1:40px;
+$myFontFamily:Lucida;
+$myFontWeight:bold;
+$myTextAlign:center;
+
+h1{
+    color: $myColor;
+    font-size: $myFontSize;
+    font-family: $myFontFamily;
+    font-weight: $myFontWeight;
+    text-align: $myTextAlign;
+
+}
+p{
+    color: $myColor1;
+    text-align: $myTextAlign;
+    font-size: $myFontSize1;
+}

@@ -1,0 +1,29 @@
+.Hooks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: burlywood;
+
+}
+
+.h2 {
+    text-align: center;
+}
+
+.button {
+    width: 8rem;
+    font-size: larger;
+    padding: 2vmax auto;
+    height: 1.8rem;
+    columns: white;
+    background-color: rgb(34, 34, 33);
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgb(80, 80, 70);
+}

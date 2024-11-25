@@ -1,0 +1,42 @@
+.head-container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 60px;
+    
+}
+/* 
+.head-image{
+    width: auto;
+    transition: max-width 1s, min-width 1.5s;
+}
+
+.head-image-expanded{
+    min-width: 300px;
+    max-width: 280px;
+}
+
+.head-image-contracted{
+    min-width: 100px;
+    max-width: 120px;
+} */
+
+
+.head-container.expanded {
+    background-color: none; /* Example color for expanded state */
+    color: #ba2f2f;
+    
+}
+
+.head-container.collapsed {
+     /* Example color for collapsed state */
+    color: #b53a3a;
+    font-size: 1.5rem;
+}
+
+
+.head-text{
+    font-family: 'Hachi Maru Pop', cursive;
+    margin: 5px 0 15px 0;
+}
+

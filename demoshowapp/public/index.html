@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
+
+<!-- ***************************************************************** -->
+
+
+    <!-- React ES6 Classes
+
+    Classes -> A class is a type of function, but instead of uisng the keyword function to intitate it, we use the keyword class. and the properties assigned inside a constructor() method.
+
+    Example ->
+
+    A simple class constructor
+
+
+    class Car{
+    constructor (name) {
+    this.brand = name;
+    }
+    } 
+    -->
+<!-- 
+    <script>
+      class  Car{
+        constructor(name) {
+          this.brand = name;
+
+        }
+      }
+
+      const mycar = new Car("Audi");
+
+      document.write(mycar.brand);
+    </script> -->
+
+
+       <!-- React ES6 Arrow Function
+
+
+    Arrow function -> Arrow function is a shorter syntax for function which is often used as an expression b/c of
+ -->
+   <!-- //  Before Arrow Function //
+
+    <h1>Functions</h1>
+    <p id = "demo"></p>
+    <script>
+      hello = function(){
+        return "Hello Mohit Welcome to ReactJs";
+      }
+
+      document.getElementById("demo").innerHTML = hello();
+    </script>
+
+    
+
+    // With Arrow Function //
+
+    <h1>Arrow Function</h1>
+
+    <p id = "demo1"></p>
+
+    <script>
+      Mohit = () => {
+        return "Hello Mohit Welcome to ReactJs";
+      }
+
+      document.getElementById("demo1").innerHTML = Mohit();
+    </script> -->
+
+
+        <!-- React ES6 Variables -->
+<!-- 
+    There are three ways of defining your variables: var, let, and const.
+
+    var Variable ->
+    
+     1.if you use var outside of a function, it belongs to the global scope.
+    2.if you use var inside a function, it belongs to that function.
+3. if you use var inside a block i.e. a for loop, the variable is til available outside of that block.
+
+    NOTE -> var has a function scope, not a block scope.
+
+     -->
+ 
+    <!-- let variable ->
+
+    1. it declared inside a block of scope like for loop -->
+
+    <!-- const variable ->
+
+    1. const is variable that once it has been created its value can never change
+2. const has blocak of scope.
+    3. it does not define constant value. if define a constant refernce t a value.
+  </body> -->
+
+    <!-- React ES6 Array Methods -->
+<!-- 
+    One of the most useful in React  is the .map() array method.
+
+    The .map() method allows you to run a function on each item  in the array, returning a new array as the result 
+
+    In React , map() used to generate lists.
+ -->
+
+<!-- 
+      React ES6 Destructuring -->
+    
+    <!-- for understanding destructuring we take example ->
+     we'll make make aa sandwich. Do you take everything outof the refrigerator to make your sandwich? No , you only take out the items would like to use on yur sandwich. -->
+
+
+  <!-- OLD WAY ASSIGNING ARRAY ITEMS
+
+    const vehicles = ['car', 'truck', 'bike'];
+
+    const car = vehicles[0];
+    const truck = vehicles[1];
+    const bike = vehicles[2]; -->
+
+<!-- 
+  NEW WAY ASSIGNING ARRAY ITEMS
+
+    const vehicles = ['car', 'truck', 'bike'];
+
+    const [car, truck, bike] = vehicles; -->
+
+<!-- 
+    EXAMPLE ->
+
+    <p id= "demo"></p>
+    <script>
+      const vehicleOne = {
+        brand: 'Ford',
+        model: 'Mustang',
+        year: 1969
+      }
+
+      myVehicles(vehicleOne);
+
+      function myVehicles({brand, model, year}) {
+        const message = 'My first vehicle was a ' + brand + ' ' + model + ' ' + year;
+
+        document.getElementById("demo").innerHTML = message;
+      }
+    </script>
+ -->
+
+    <!-- React ES6 Spread Operator
+
+    Spread Operator -> The javascript spread operator(....) allows us to quickly copy all the properties from one object into another object. -->
+  <!-- </body>   
+  </html> -->
+  
